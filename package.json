@@ -1,0 +1,9 @@
+{
+  "name": "test-afinidad-29n",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "datos": "python3 tools/build_data.py banco-preguntas-29N.json",
+    "dev": "node tools/dev-server.mjs"
+  }
+}

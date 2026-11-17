@@ -1,0 +1,3203 @@
+{
+ "version": "29N-2026-v1",
+ "fecha": "2026-11-17",
+ "fuente": "Programas electorales oficiales de PSOE, PP, Vox y Frente Amplio para las elecciones generales del 29 de noviembre de 2026 (PDF). Las páginas son páginas del PDF, no la numeración impresa.",
+ "partidos": {
+  "PP": "PP",
+  "PSOE": "PSOE",
+  "VOX": "Vox",
+  "FA": "Frente Amplio"
+ },
+ "preguntas": [
+  {
+   "id": 1,
+   "tema": "Vivienda",
+   "pregunta": "¿Cuál debería ser la prioridad para facilitar el acceso a la vivienda?",
+   "respuestas": [
+    {
+     "texto": "Incorporar 1,5 millones de viviendas públicas en alquiler en 12 años, incluida la expropiación progresiva de pisos de grandes propietarios corporativos.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 10,
+       "medida": null,
+       "cita": "se incorporarán 1,5 millones de viviendas públicas en 12 años (125.000 viviendas públicas/año)"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 10,
+       "medida": null,
+       "cita": "Expropiación progresiva del stock inmobiliario de grandes tenedores corporativos"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Construir un millón de viviendas movilizando suelo público y privado, con una nueva Ley del Suelo y licencias más rápidas.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 41,
+       "medida": 144,
+       "cita": "CONSTRUIREMOS UN MILLÓN DE VIVIENDAS. Movilizaremos suelo público y privado en colaboración con las Comunidades Autónomas y las entidades locales."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 41,
+       "medida": 144,
+       "cita": "Aprobaremos una nueva Ley del Suelo para agilizar el planeamiento urbanístico y reforzar su seguridad jurídica."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Dar prioridad a los españoles en el acceso a vivienda protegida, social y a las ayudas al alquiler, y reformar la Ley del Suelo para construir mucho más.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 23,
+       "medida": 27,
+       "cita": "Prioridad nacional para acceder a una vivienda protegida, social o a una ayuda al alquiler."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 23,
+       "medida": 28,
+       "cita": "Reforma de la Ley del Suelo. Volver a ver grúas en los cielos."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Destinar cada año el 1 % del PIB a vivienda asequible y crear un parque público estatal de 100.000 viviendas.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 27,
+       "medida": 38,
+       "cita": "Movilizar anualmente un 1% del PIB para garantizar el acceso a la vivienda."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 28,
+       "medida": 42,
+       "cita": "Constituir un parque público estatal de 100.000 viviendas mediante la construcción y adquisición"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "tema": "Alquiler",
+   "pregunta": "¿Qué harías con el precio del alquiler?",
+   "respuestas": [
+    {
+     "texto": "Congelar temporalmente los alquileres que superen los índices de referencia en zonas tensionadas y alargar la duración de los contratos.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 30,
+       "medida": 62,
+       "cita": "Congelar temporalmente las rentas que superen los índices de referencia, evitando incrementos abusivos en los mercados tensionados."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 30,
+       "medida": 61,
+       "cita": "Ampliar la duración de los contratos de arrendamiento, reforzando la estabilidad residencial de las personas inquilinas."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Limitar por ley el alquiler en zonas tensionadas a un máximo ligado al 25 % de la renta media del barrio, con una bajada media estimada del 35 %.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 13,
+       "medida": null,
+       "cita": "el techo máximo de la mensualidad será la cifra menor resultante de comparar el 25 % de la renta neta media por hogar de la sección censal y el tope fijado por el índice SERPAVI."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 13,
+       "medida": null,
+       "cita": "Esta regulación provocará una reducción media del 35 % en los precios actuales del mercado."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Eliminar las zonas tensionadas y el índice de precios, y bajar impuestos al propietario que renueve tres años más subiendo la renta por debajo del IPC.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 42,
+       "medida": 145,
+       "cita": "Eliminaremos las zonas tensionadas y el índice de precios, que han introducido más intervención, más incertidumbre y menos oferta en el mercado del alquiler."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 156,
+       "cita": "El propietario particular que, al vencer el contrato de una vivienda habitual, lo renueve a su inquilino por tres años más subiendo la renta por debajo del IPC tendrá una deducción en el IRPF o un crédito fiscal que compense ese esfuerzo."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar la Ley de Vivienda y dar incentivos fiscales al alquiler de larga duración para que haya más oferta.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 23,
+       "medida": 30,
+       "cita": "Recuperar la seguridad jurídica y una oferta de alquileres estable, abundante y asequible. Derogación de la Ley de Vivienda. Incentivos fiscales al alquiler de larga"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "tema": "Ocupación y desahucios",
+   "pregunta": "¿Cómo abordarías la ocupación ilegal de viviendas y los desahucios?",
+   "respuestas": [
+    {
+     "texto": "Prohibir por ley los desahucios de familias vulnerables sin alternativa y obligar a los grandes propietarios a ofrecer antes un alquiler social de al menos 7 años.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 15,
+       "medida": null,
+       "cita": "Prohibiremos de forma permanente y con rango de ley la ejecución de lanzamientos o desahucios de personas y familias en situación de vulnerabilidad económica o social sin que las administraciones públicas hayan proporcionado con carácter previo una alternativa habitacional digna, adecuada y estable."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 15,
+       "medida": null,
+       "cita": "impondremos la obligación legal a grandes tenedores de ofrecer un contrato de alquiler social de al menos 7 años"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Desalojar la vivienda ocupada en menos de 24 horas y castigar como estafa al inquilino que deja de pagar y no se marcha.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 24,
+       "medida": 31,
+       "cita": "Desalojo de la vivienda okupada en menos de 24 horas y recuperación inmediata de la posesión por su legítimo titular, el propietario."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 24,
+       "medida": 31,
+       "cita": "Tipificación de la inquiocupación como delito de estafa."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Mantener los juicios rápidos contra la ocupación y proteger de forma estable frente al desahucio a las personas vulnerables sin alternativa, sin que lo pague el pequeño propietario.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 101,
+       "medida": 438,
+       "cita": "Sobre la base de la puesta en marcha de juicios rápidos para el allanamiento de morada y la usurpación que existen desde 2025, seguiremos combatiendo las mafias de la ocupación"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 33,
+       "medida": 84,
+       "cita": "Garantizar un marco estable de protección frente a los desahucios de personas en situación de vulnerabilidad sin alternativa habitacional"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 33,
+       "medida": 85,
+       "cita": "Asegurar que el coste de la prohibición de los desahucios a personas vulnerables no recaiga sobre el pequeño propietario"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que el propietario recupere su vivienda en 48 horas por orden judicial y no pague suministros ni impuestos mientras dure la ocupación.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 157,
+       "cita": "Aprobaremos una ley para que el propietario pueda recuperar su vivienda en 48 horas desde el primer día."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 157,
+       "cita": "Quien tenga su vivienda ocupada no estará obligado a pagar el agua, la luz, el gas ni los impuestos de esa vivienda mientras dure la ocupación."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "tema": "Compra de vivienda",
+   "pregunta": "¿Cómo ayudarías a comprar la primera vivienda?",
+   "respuestas": [
+    {
+     "texto": "Ampliar el programa público de préstamos de hasta 50.000 euros sin intereses para comprar la primera vivienda.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 31,
+       "medida": 67,
+       "cita": "Desplegar el Programa TUCASA y ampliar su dotación en caso de que se agoten los 10.000 millones de euros de la línea de préstamos de hasta 50 mil euros sin intereses para adquisición de una primera vivienda."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que la primera vivienda habitual no pague impuestos: IVA del 0 % si es nueva y bonificación total del ITP si es de segunda mano.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 24,
+       "medida": 34,
+       "cita": "La primera vivienda habitual de una familia española no paga impuestos. Tipo 0% de IVA para la compra de tu primera vivienda habitual -de nueva construcción- y bonificación 100% del ITP para la compra de tu primera vivienda habitual -de segunda mano-."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Bajar al 4 % el IVA de la primera vivienda para menores de 40 años y que el Estado avale hasta el 20 % del precio para cubrir la entrada.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 153,
+       "cita": "Reduciremos el IVA de la compra de primera vivienda del 10% al 4% para menores de 40 años"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 154,
+       "cita": "Ampliaremos el aval público, que cubre hasta el 20% del valor de la vivienda, a los compradores menores de 40 años"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Obligar a todos los bancos a ofrecer una hipoteca pública a tipo fijo y ayudar con hasta 300 € al mes a las familias de rentas bajas ahogadas por la cuota.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 15,
+       "medida": null,
+       "cita": "Regularemos la Hipoteca Pública a Tipo Fijo de oferta obligatoria en todas las entidades bancarias."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 15,
+       "medida": null,
+       "cita": "Crearemos un escudo hipotecario de protección que otorgará una deducción en el IRPF en forma de impuesto negativo de hasta 300 € al mes para familias con ingresos inferiores a 3 IPREM"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "tema": "IRPF",
+   "pregunta": "¿Qué cambio harías en el impuesto sobre la renta (IRPF)?",
+   "respuestas": [
+    {
+     "texto": "Subir el IRPF a las rentas más altas, hasta el 52 % a partir de 300.000 euros, y acercar la tributación del capital a la del trabajo.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 46,
+       "medida": null,
+       "cita": "elevaremos progresivamente los tipos marginales hasta alcanzar el 52 % para rentas a partir de 300.000 euros."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 46,
+       "medida": null,
+       "cita": "Acercaremos la tributación de las rentas del capital a la de las rentas del trabajo."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Crear una deducción en el IRPF que se active cuando suban los precios, con un diseño progresivo pensado para rentas medias y bajas.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 37,
+       "medida": 88,
+       "cita": "Crearemos un mecanismo para activar una deducción en el IRPF en contextos de subidas de precios. Tendrá un diseño progresivo para beneficiar a rentas medias y"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que por ley quien cobre el salario mínimo no pague IRPF y actualizar la tarifa con la inflación para evitar subidas encubiertas.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 47,
+       "medida": 177,
+       "cita": "Quien cobre el salario mínimo no pagará IRPF"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 47,
+       "medida": 178,
+       "cita": "Deflactaremos la tarifa y actualizaremos los principales parámetros del impuesto para impedir que la inflación vuelva a utilizarse como una subida encubierta de impuestos."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Simplificar y bajar el IRPF, con un tipo más bajo para cada contribuyente o familia según su número de hijos.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 9,
+       "medida": null,
+       "cita": "Simplificación y bajada del IRPF. Reducción del tipo aplicable del IRPF para cada contribuyente o familia en función del número de hijos."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "tema": "Impuestos a empresas",
+   "pregunta": "¿Cómo deberían tributar las empresas?",
+   "respuestas": [
+    {
+     "texto": "Que lo que una empresa invierta en maquinaria, digitalización o patentes pueda descontarse entero de Sociedades el mismo año.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 47,
+       "medida": 181,
+       "cita": "lo que una empresa invierta en maquinaria, equipos, digitalización, inteligencia artificial, ciberseguridad, software o patentes podrá descontarse entero el mismo año."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Subir los impuestos a las empresas cotizadas en las que el sueldo del primer ejecutivo supere 100 veces el sueldo mediano de su plantilla.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 48,
+       "medida": 133,
+       "cita": "Aumentar la tributación de las empresas cotizadas cuya ratio entre la retribución total de su ejecutivo principal y la mediana de su plantilla supere 100 a 1"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Bajar el tipo del Impuesto de Sociedades para que las empresas crezcan y creen empleo.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 9,
+       "medida": null,
+       "cita": "Reducir el tipo del Impuesto de Sociedades con el fin de promover la dinamización de nuestra economía, el crecimiento de nuestras empresas y la creación efectiva de empleo."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Fijar un tipo mínimo real del 20 % para los grandes grupos y suprimir la consolidación fiscal, sin subir la carga a las pymes.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 44,
+       "medida": null,
+       "cita": "Impondremos un tipo mínimo efectivo del 20 % sobre el resultado contable ajustado para las grandes empresas y grupos corporativos"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 44,
+       "medida": null,
+       "cita": "Eliminaremos el régimen de consolidación fiscal de los grupos empresariales para impedir la reducción artificial de la tributación."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "tema": "Precios de los alimentos",
+   "pregunta": "¿Qué harías para abaratar los alimentos básicos?",
+   "respuestas": [
+    {
+     "texto": "Rebajar el IVA reducido y el general, empezando por los productos esenciales y de primera necesidad.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 9,
+       "medida": null,
+       "cita": "Rebaja del tipo reducido y del tipo general del IVA atendiendo prioritariamente a productos esenciales y de primera necesidad."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Aplicar un IVA del 0 % a los alimentos básicos, incluidos carne, pescado y conservas, mientras dure la crisis de precios.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 47,
+       "medida": 180,
+       "cita": "y de poder adquisitivo, aplicaremos un IVA del 0% a los alimentos básicos, incluidos la carne, el pescado y las conservas."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Fijar precios máximos para una cesta de alimentos saludables en situaciones de emergencia y gravar los márgenes excesivos de las grandes empresas de alimentación.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 56,
+       "medida": null,
+       "cita": "Estableceremos mecanismos de control de precios en alimentos básicos de consumo diario con la fijación de topes máximos en la cesta saludable y condicionados a situaciones de emergencia o abuso acreditado."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 56,
+       "medida": null,
+       "cita": "Crearemos un gravamen especial sobre los márgenes empresariales de grandes empresas de producción y distribución alimentaria."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Dar más poder a la autoridad de la competencia para vigilar cómo se forman los precios y asegurar que las rebajas de impuestos llegan al precio final.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 38,
+       "medida": 94,
+       "cita": "Garantizar que cualquier rebaja del IVA a bienes básicos se traslade a precios, reforzando la CNMC."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "tema": "Autónomos",
+   "pregunta": "¿Qué medida para los trabajadores autónomos te parece mejor?",
+   "respuestas": [
+    {
+     "texto": "Avanzar en la cotización por ingresos reales, mejorar su protección social y simplificar el acceso a la prestación por cese de actividad.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 42,
+       "medida": 117,
+       "cita": "seguir mejorando la protección social de las personas autónomas, atendiendo también a la conciliación de los cuidados, avanzando en la cotización por ingresos reales; simplificar el acceso a la prestación por cese de actividad"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que los nuevos autónomos no paguen cuota el primer año y que su vivienda habitual quede protegida por defecto si el negocio sale mal.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 46,
+       "medida": 170,
+       "cita": "Los nuevos autónomos no pagarán cuota a la Seguridad Social durante su primer año, ni durante el segundo si sus ingresos no llegan al salario mínimo."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 46,
+       "medida": 170,
+       "cita": "la vivienda habitual del autónomo quedará protegida por defecto"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Cuota de cero euros para quien no llegue al salario mínimo y, por encima, una cuota progresiva desde 50 euros según ingresos.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 9,
+       "medida": null,
+       "cita": "Cuota de cero euros si los ingresos no llegan al Salario Mínimo Interprofesional y, superado dicho umbral, una cuota progresiva desde los 50 euros en función de sus ingresos."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que quien facture menos de 85.000 euros al año deje de hacer liquidaciones periódicas de IVA y solo presente una declaración informativa anual.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 92,
+       "medida": null,
+       "cita": "Aquellos que facturen menos de 85.000 euros anuales quedarán exentos de liquidaciones periódicas y solo tendrán que presentar una declaración informativa anual."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 9,
+   "tema": "Pensiones",
+   "pregunta": "¿Qué harías con las pensiones?",
+   "respuestas": [
+    {
+     "texto": "Blindar en la Constitución el sistema público de pensiones y su revalorización conforme al IPC.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 40,
+       "medida": 100,
+       "cita": "Blindar constitucionalmente el sistema público de pensiones y su revalorización conforme al IPC, garantizando el derecho de las personas mayores a una pensión digna, suficiente y actualizada."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Subirlas cada año con el IPC y premiar con deducciones en el IRPF a quien siga trabajando después de jubilarse.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 34,
+       "medida": 108,
+       "cita": "Aseguraremos que mantengan su poder adquisitivo y suban cada año con el IPC."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 34,
+       "medida": 108,
+       "cita": "Incentivaremos la jubilación activa mediante deducciones en el IRPF."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que ninguna pensión sea inferior al salario mínimo y devolver la edad de jubilación a los 65 años.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 57,
+       "medida": null,
+       "cita": "que ninguna sea inferior al SMI"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 57,
+       "medida": null,
+       "cita": "Devolveremos la edad de jubilación a los 65 años"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Asegurar su sostenibilidad con más crecimiento, empleo y salarios, y con medidas de apoyo a la natalidad.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 10,
+       "medida": 7,
+       "cita": "Garantizar la sostenibilidad del sistema de pensiones. Revitalizar la economía, impulsar el empleo, mejorar los salarios y aumentar la riqueza."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 11,
+       "medida": 7,
+       "cita": "es necesario impulsar medidas de apoyo a las familias, fomento de la natalidad y ayuda a la crianza"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 10,
+   "tema": "Trabajo",
+   "pregunta": "¿Qué cambio en el mercado laboral priorizas?",
+   "respuestas": [
+    {
+     "texto": "Avanzar hacia una jornada máxima de 32 horas semanales sin bajar el sueldo, empezando por las 37,5 horas de inmediato.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 7,
+       "medida": null,
+       "cita": "Avanzaremos hacia la jornada laboral máxima de 32 horas semanales sin reducción salarial —empezando por las 37,5 horas de forma inmediata—"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Completar la reducción de la jornada a 37,5 horas sin perder salario y animar a llegar a las 35 horas mediante la negociación colectiva.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 41,
+       "medida": 108,
+       "cita": "Completar la reducción de la jornada a 37,5 horas e incentivar los avances en la negociación colectiva hacia las 35 horas."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar la última reforma laboral, por considerar que ha agravado la precariedad y desincentivado la contratación.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 13,
+       "medida": null,
+       "cita": "Derogar la legislación laboral de Sánchez que ha agravado la precariedad, desincentivado la contratación"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que las empresas con plantillas más estables que la media de su sector paguen menos cotización por desempleo.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 46,
+       "medida": 174,
+       "cita": "Las empresas que mantengan sus plantillas más estables que la media de su sector cotizarán menos por desempleo."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 11,
+   "tema": "Energía nuclear",
+   "pregunta": "¿Qué hacer con las centrales nucleares?",
+   "respuestas": [
+    {
+     "texto": "Cerrar Almaraz en 2027-2028 como está previsto, sin beneficios fiscales y con los residuos a cargo de las empresas.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 64,
+       "medida": null,
+       "cita": "Almaraz I y II cerrarán en los plazos previstos (2027-2028), sin beneficios fiscales, con la gestión de los residuos a cargo de las empresas"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar el calendario de cierre y estudiar construir nuevas centrales junto a las actuales, dentro de un plan nuclear nacional.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 12,
+       "medida": null,
+       "cita": "Recuperar urgentemente el plan nuclear nacional. Se garantizará la supervivencia de las centrales nucleares actuales, derogando el calendario de cierre."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 12,
+       "medida": null,
+       "cita": "Se promoverán estudios urgentes para instalar centrales nucleares en los emplazamientos disponibles adyacentes a las actuales."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Alargar su vida útil con el visto bueno del Consejo de Seguridad Nuclear y que todas las tecnologías compitan en igualdad.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 54,
+       "medida": 228,
+       "cita": "En los primeros cien días de Gobierno tramitaremos la extensión de su vida útil con el visto bueno del Consejo de Seguridad Nuclear"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 54,
+       "medida": 228,
+       "cita": "todas las tecnologías competirán en igualdad en subastas, ayudas y regulación."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Mantener el calendario de cierre hasta 2035 con proyectos de transición justa en las comarcas afectadas.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 66,
+       "medida": 240,
+       "cita": "Mantener el calendario de cierre de las centrales nucleares hasta 2035 y desarrollar proyectos de transición justa en las comarcas afectadas"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 12,
+   "tema": "Cambio climático",
+   "pregunta": "¿Qué enfoque prefieres frente al cambio climático?",
+   "respuestas": [
+    {
+     "texto": "Mantener la descarbonización como objetivo, pero revisar el ritmo de cada sector y frenar calendarios que considera imposibles.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 55,
+       "medida": 232,
+       "cita": "ha llegado el momento de revisar los ritmos de cada sector"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 55,
+       "medida": 232,
+       "cita": "Pondremos freno a la imposición de calendarios imposibles."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Acabar con las imposiciones climáticas del Pacto Verde Europeo, como las zonas de bajas emisiones o la prohibición de los motores de combustión.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 29,
+       "medida": 44,
+       "cita": "Acabar con todas las imposiciones climáticas como el Pacto Verde que castigan nuestra industria, nuestro campo o que coartan la libertad de circulación de los españoles, como la imposición de ZBE."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 12,
+       "medida": null,
+       "cita": "combustión, impuestos a las emisiones de CO2) inspiradas en el Pacto Verde Europeo"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Invertir cada año el 3,5 % del PIB en la transición ecológica, con política industrial verde y banca pública.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 8,
+       "medida": null,
+       "cita": "Actuaremos contra la emergencia climática con valentía e inversión pública, dedicando el 3,5 % del PIB anual."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Defender y profundizar el Pacto Verde Europeo y llegar al 81 % de electricidad renovable en 2030.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 73,
+       "medida": 299,
+       "cita": "Defender y profundizar el Pacto Verde Europeo, garantizando que la simplificación administrativa no suponga una reducción de la ambición climática"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 65,
+       "medida": 234,
+       "cita": "Impulsar el despliegue de energías renovables, para alcanzar el 81% de generación eléctrica en 2030"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 13,
+   "tema": "Factura de la luz",
+   "pregunta": "¿Cómo bajarías la factura de la luz?",
+   "respuestas": [
+    {
+     "texto": "Suprimir el impuesto del 7 % a la producción eléctrica y crear una tarifa social única para los hogares vulnerables.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 54,
+       "medida": 229,
+       "cita": "Eliminaremos de inmediato el impuesto del 7% a la producción eléctrica y reduciremos la carga fiscal del recibo."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 54,
+       "medida": 229,
+       "cita": "Los hogares más vulnerables tendrán una Tarifa Social Única que sustituirá y mejorará los actuales bonos eléctrico y térmico."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Bajar de forma masiva los impuestos de la electricidad para familias y empresas y acabar con la doble imposición.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 11,
+       "medida": null,
+       "cita": "Bajada masiva de los impuestos de la energía eléctrica a familias, empresas e industrias españolas. Fin de la doble imposición."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Extender el autoconsumo y reformar el mercado eléctrico europeo para que el abaratamiento de las renovables llegue a la factura.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 65,
+       "medida": 236,
+       "cita": "Extender el autoconsumo y la eficiencia energética en viviendas, edificios públicos, pymes e industrias"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 66,
+       "medida": 239,
+       "cita": "Defender la reforma del mercado eléctrico europeo para garantizar que los beneficios de las energías renovables se trasladen de forma efectiva a consumidores, hogares y empresas."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Tres horas de luz gratis al día en la franja solar para todos los hogares, con una comercializadora eléctrica pública.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 64,
+       "medida": null,
+       "cita": "la luz será gratis para todos los hogares, tengan o no placas solares."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 64,
+       "medida": null,
+       "cita": "La comercializadora pública ofrecerá de partida tres horas diarias gratuitas en la franja solar"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 14,
+   "tema": "Inmigración",
+   "pregunta": "¿Qué política migratoria prefieres?",
+   "respuestas": [
+    {
+     "texto": "Cerrar la puerta a más llegadas: prohibir las regularizaciones, suprimir el arraigo y repatriar a quien esté en situación irregular.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 15,
+       "medida": 9,
+       "cita": "Prohibición de las regularizaciones masivas. Quien entra de forma ilegal jamás podrá regularizar su situación."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 15,
+       "medida": 11,
+       "cita": "Supresión de la institución del arraigo como forma de atajar la inmigración ilegal"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 15,
+       "medida": 12,
+       "cita": "Repatriación de quienes permanezcan en situación ilegal en nuestra nación."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Crear un procedimiento estable y permanente de regularización de personas migrantes y terminar la regularización extraordinaria en curso.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 126,
+       "medida": null,
+       "cita": "Reformaremos de forma integral la Ley de Extranjería para instaurar un procedimiento estable, permanente y reglado de regularización administrativa."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 126,
+       "medida": null,
+       "cita": "Resolveremos todas las solicitudes con medios suficientes, de modo que ninguna persona quede fuera por retrasos de la Administración."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan de integración y ciudadanía de 500 millones y más vías legales y seguras de protección internacional.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 92,
+       "medida": 388,
+       "cita": "Desplegar el Plan de Integración y Ciudadanía 2026-2030, con una dotación inicial de 500 millones de euros"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 92,
+       "medida": 389,
+       "cita": "Ampliar las vías legales y seguras de protección internacional y reforzar el sistema público de acogida y asilo"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Inmigración legal con visados por puntos y cupos anuales ajustados al paro y a la capacidad de vivienda y servicios.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 19,
+       "medida": 40,
+       "cita": "Implantaremos visados por puntos que valoren la formación, la experiencia, el idioma y la integración."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 19,
+       "medida": 41,
+       "cita": "Fijaremos cupos anuales que determinen cuántos trabajadores pueden venir y para qué sectores."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 15,
+   "tema": "Menores migrantes",
+   "pregunta": "¿Qué hacer con los menores extranjeros que llegan solos?",
+   "respuestas": [
+    {
+     "texto": "Determinar su edad en un máximo de 72 horas y priorizar la reunificación con su familia y el retorno seguro a su país.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 20,
+       "medida": 46,
+       "cita": "Resolveremos en un máximo de 72 horas los procedimientos de determinación de la edad"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 20,
+       "medida": 46,
+       "cita": "para priorizar la reunificación familiar y el retorno seguro a sus países"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Devolverlos con sus padres o a las instituciones de tutela de sus países de origen.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 15,
+       "medida": 15,
+       "cita": "Los MENAS, con sus familias. Devolución de menores extranjeros no acompañados a sus padres o a las"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 16,
+       "medida": 15,
+       "cita": "instituciones de tutela de sus países de origen, atendiendo al interés superior del menor."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan integral de protección e inclusión con un reparto solidario y obligatorio de los menores entre comunidades autónomas.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 41,
+       "medida": null,
+       "cita": "Aprobaremos el Plan Integral de Atención, Protección e Inclusión de la Infancia Migrante (incluyendo jóvenes en tránsito a la vida adulta) con un acuerdo marco vinculante para un reparto solidario y equitativo entre comunidades autónomas."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Crear una unidad estatal especializada que ayude a las comunidades que los reciben, con atención psicosocial y jurídica.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 57,
+       "medida": 200,
+       "cita": "Crear una Unidad de Apoyo a la Infancia Migrante, con equipos multidisciplinares especializados en protección infantil, atención psicosocial, mediación intercultural y asesoramiento jurídico"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 16,
+   "tema": "Acceso a ayudas",
+   "pregunta": "¿Cómo debería decidirse quién accede a ayudas y servicios públicos?",
+   "respuestas": [
+    {
+     "texto": "Quitar trabas para que las personas migrantes accedan a derechos básicos: empadronamiento flexible, cuenta bancaria y homologación de títulos más rápida.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 126,
+       "medida": null,
+       "cita": "Suprimiremos trabas administrativas para el acceso efectivo a derechos mediante un empadronamiento flexible, la garantía de acceso a una cuenta bancaria de pago básica, la aceleración y agilización del procedimiento de homologación de títulos académicos"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Dar acceso preferente a los españoles en vivienda pública, guarderías, becas de comedor, transporte y ayudas sociales.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 19,
+       "medida": 18,
+       "cita": "En España, los españoles primero. Acceso preferente de los españoles a vivienda pública, plazas de guardería, bonos de comedor o transporte, ayudas, prestaciones y servicios sociales."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Poner en marcha la autoridad independiente para la igualdad de trato y reforzar la lucha contra la discriminación.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 93,
+       "medida": 392,
+       "cita": "Desarrollar plenamente la Ley Zerolo, poniendo en funcionamiento la Autoridad Independiente para la Igualdad de Trato y la No Discriminación."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Priorizar a quien tenga un arraigo real y verificable (empadronamiento, cotizaciones, permanencia), sin basarse solo en la nacionalidad.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 32,
+       "medida": 98,
+       "cita": "Estableceremos criterios de prioridad en el acceso a determinadas ayudas, prestaciones y recursos públicos para procurar la asignación prioritaria a quienes mantengan un arraigo real, duradero y verificable con España."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 32,
+       "medida": 98,
+       "cita": "no podrán basarse exclusivamente en la nacionalidad."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 17,
+   "tema": "Sanidad",
+   "pregunta": "¿Cómo reducirías las listas de espera sanitarias?",
+   "respuestas": [
+    {
+     "texto": "Limitar la privatización de la sanidad, con la gestión pública directa como forma preferente de prestar el servicio.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 49,
+       "medida": 138,
+       "cita": "Limitar la privatización de la sanidad estableciendo la gestión directa como modalidad preferente en la prestación sanitaria."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un pacto de Estado con las comunidades, un plan urgente de listas de espera y al menos 4.500 médicos más en atención primaria.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 52,
+       "medida": 219,
+       "cita": "Impulsaremos un gran Pacto de Estado por la Sanidad Pública con las Comunidades Autónomas."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 52,
+       "medida": 220,
+       "cita": "En Atención Primaria, al menos 4.500 médicos más."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan nacional de listas de espera que recurra a la sanidad privada cuando ayude de verdad a reducir demoras, con control del gasto.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 37,
+       "medida": 62,
+       "cita": "Plan nacional de reducción de listas de espera y mejora de la atención sanitaria."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 37,
+       "medida": 62,
+       "cita": "Fomento de la colaboración público-privada cuando ayude efectivamente a reducir demoras, con transparencia, evaluación de calidad y control del gasto."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Sanidad con el 8 % del PIB, derogar la ley que abrió la gestión privada y recuperar poco a poco los servicios privatizados.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 26,
+       "medida": null,
+       "cita": "Compromiso desde los Presupuestos Generales del Estado del 8 % del PIB estatal para la sanidad pública."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 26,
+       "medida": null,
+       "cita": "Derogaremos expresamente la Ley 15/1997, sobre habilitación de nuevas formas de gestión del SNS"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 26,
+       "medida": null,
+       "cita": "elaboraremos planes de internalización paulatina de servicios privatizados"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 18,
+   "tema": "Modelo educativo",
+   "pregunta": "¿Qué debería priorizar la política educativa?",
+   "respuestas": [
+    {
+     "texto": "No eliminar conciertos educativos donde haya demanda y que estos duren al menos seis años, para que la plaza concertada sea gratuita de verdad.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 51,
+       "medida": 212,
+       "cita": "LOS PADRES ELEGIRÁN COLEGIO, Y NINGÚN CONCIERTO EDUCATIVO SE ELIMINARÁ DONDE HAYA DEMANDA SUFICIENTE."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 51,
+       "medida": 212,
+       "cita": "Los conciertos durarán al menos seis años en todas las etapas"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Blindar por ley el 7 % del PIB para educación y avanzar para que todo el dinero público vaya a la red pública.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 31,
+       "medida": null,
+       "cita": "Aprobaremos una Ley de Financiación Educativa que blinde legalmente un porcentaje mínimo de inversión estatal y que deberá llegar al 7 % del PIB en 2030."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 31,
+       "medida": null,
+       "cita": "El objetivo es que el 100 % de los fondos públicos vayan destinados a la educación pública."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Garantizar la libre elección de centro en todos los niveles, con distrito único para las familias.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 41,
+       "medida": 67,
+       "cita": "Garantizar la libre elección de centro educativo en todos los niveles para que las familias elijan libremente el modelo educativo que desean"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 42,
+       "medida": 74,
+       "cita": "Distrito único y libre elección de centro escolar para los padres."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Ampliar las becas y limitar el número máximo de alumnos por aula.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 52,
+       "medida": 158,
+       "cita": "Ampliar y mejorar el sistema de becas y limitar la capacidad máxima por aula"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 19,
+   "tema": "Contenidos educativos",
+   "pregunta": "¿Qué cambio en lo que se enseña en las aulas te parece más necesario?",
+   "respuestas": [
+    {
+     "texto": "Promover la memoria democrática, los derechos humanos y los valores cívicos, con más pensamiento crítico frente a la desinformación.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 52,
+       "medida": 165,
+       "cita": "Promover el conocimiento de la memoria democrática, los derechos humanos y los valores cívicos, fortaleciendo el pensamiento crítico, la participación democrática y la lucha contra la desinformación y los discursos de odio."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que los currículos de Historia los elaboren las Reales Academias y no el Gobierno, e incluyan la Constitución, la Transición y el terrorismo.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 38,
+       "medida": 133,
+       "cita": "Los currículos de Historia se elaborarán con las Reales Academias y las sociedades científicas, y no con el Gobierno de turno."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 38,
+       "medida": 133,
+       "cita": "Los alumnos estudiarán la Constitución, la Transición y el daño causado por el terrorismo, así como el papel de quienes lo combatieron."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar la ley educativa actual, eliminar contenidos ideológicos y volver a una enseñanza basada en el esfuerzo, el mérito y la disciplina.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 41,
+       "medida": 69,
+       "cita": "Eliminación de contenidos ideológicos ajenos a las materias académicas. Derogación de la LOMLOE y recuperación de una enseñanza basada en el esfuerzo, el saber, el mérito, la exigencia, la disciplina y la responsabilidad personal."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una estrategia de educación en igualdad desde edades tempranas para prevenir todas las violencias.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 40,
+       "medida": null,
+       "cita": "Desarrollaremos una estrategia educativa en cooperación con comunidades autónomas y ayuntamientos para formar en igualdad y prevenir todas las violencias desde edades tempranas."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 20,
+   "tema": "Lenguas",
+   "pregunta": "¿Qué papel deberían tener el castellano y las lenguas cooficiales?",
+   "respuestas": [
+    {
+     "texto": "Garantizar la educación en español en toda España y que no saber una lengua regional nunca impida acceder a una plaza de sanitario.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 41,
+       "medida": 66,
+       "cita": "Se garantizará la educación en español en todo el territorio nacional."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 37,
+       "medida": 60,
+       "cita": "Garantizar que el desconocimiento de las lenguas regionales no sea en ningún caso impedimento para el acceso por oposición a plazas de personal sanitario"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que el castellano sea la lengua común de trabajo en el Congreso y garantizar la enseñanza en castellano, respetando las cooficiales.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 37,
+       "medida": 127,
+       "cita": "EL CASTELLANO VOLVERÁ A SER LA LENGUA COMÚN DE TRABAJO EN EL CONGRESO."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 32,
+       "medida": 96,
+       "cita": "Garantizaremos el derecho constitucional de recibir enseñanza en castellano en todas las etapas del sistema educativo y en toda la Nación"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan estatal para aprender las lenguas cooficiales en toda España, garantizando la inmersión en catalán en Cataluña.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 32,
+       "medida": null,
+       "cita": "Lanzaremos un Plan Estatal para el aprendizaje y divulgación de las lenguas cooficiales en todo el Estado, garantizando la inmersión lingüística en catalán como lengua vehicular en Cataluña."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Consolidar el uso de las lenguas cooficiales en las Cortes y en la Administración del Estado, e impulsar que sean oficiales en la UE.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 91,
+       "medida": 385,
+       "cita": "Consolidaremos el uso de las lenguas cooficiales en las Cortes Generales y lo extenderemos a la atención de la Administración General del Estado en los territorios donde son oficiales."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 111,
+       "medida": 485,
+       "cita": "Seguir impulsando el reconocimiento del catalán, el euskera y el gallego como lenguas oficiales de la Unión Europea"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 21,
+   "tema": "Aborto",
+   "pregunta": "¿Qué postura sobre el aborto se acerca más a la tuya?",
+   "respuestas": [
+    {
+     "texto": "Ayudar a toda mujer que quiera ser madre y que el bebé aún no nacido cuente ya para las ayudas familiares.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 44,
+       "medida": 159,
+       "cita": "CUALQUIER MUJER QUE QUIERA SER MADRE SERÁ AYUDADA."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 44,
+       "medida": 159,
+       "cita": "El concebido no nacido computará para determinar las ayudas y beneficios que correspondan a la familia."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Reformar la Constitución para blindar el derecho al aborto en igualdad de condiciones en todo el territorio.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 81,
+       "medida": 327,
+       "cita": "Blindar constitucionalmente el derecho a la interrupción voluntaria del embarazo."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 81,
+       "medida": 327,
+       "cita": "para reforzar la garantía del derecho al aborto en condiciones de igualdad en todo el territorio"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Defender el derecho a la vida desde la concepción y garantizar la objeción de conciencia de sanitarios y farmacéuticos.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 98,
+       "cita": "Defensa del derecho a la vida desde su concepción hasta la muerte natural y fin de la cultura de la muerte."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 98,
+       "cita": "Garantizar la objeción de conciencia de los profesionales sanitarios y farmacéuticos"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Garantizar que el aborto se haga en centros públicos de todas las comunidades, con formación obligatoria para los sanitarios.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 28,
+       "medida": null,
+       "cita": "Estrategia para garantizar la IVE en centros públicos en todas las comunidades autónomas y ciudades autónomas"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 28,
+       "medida": null,
+       "cita": "Formación obligatoria en IVE en planes de estudio y especialidades sanitarias."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 22,
+   "tema": "Final de la vida",
+   "pregunta": "¿Qué debería garantizar el Estado al final de la vida?",
+   "respuestas": [
+    {
+     "texto": "Defender la vida hasta la muerte natural, poner fin a la «cultura de la muerte» y potenciar los cuidados paliativos.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 98,
+       "cita": "Defensa del derecho a la vida desde su concepción hasta la muerte natural y fin de la cultura de la muerte."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 98,
+       "cita": "potenciar los cuidados paliativos."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Garantizar la muerte digna y el ejercicio efectivo del derecho a la eutanasia, de acuerdo con la ley vigente.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 50,
+       "medida": 147,
+       "cita": "Garantizar la muerte digna y el ejercicio efectivo del derecho a la eutanasia, de acuerdo con la legislación vigente."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Reconocer el derecho a la eutanasia y también al suicidio asistido.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 150,
+       "medida": null,
+       "cita": "Derecho a la interrupción voluntaria del embarazo, a la eutanasia y al suicidio asistido."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una ley nacional de cuidados paliativos para que nadie se vea empujado a adelantar su muerte por falta de alternativas.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 54,
+       "medida": 226,
+       "cita": "aprobaremos una ley nacional de cuidados paliativos con el fin de que nadie se vea empujado a la aceleración de la muerte por falta de alternativas"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 23,
+   "tema": "Violencia contra las mujeres",
+   "pregunta": "¿Qué medida frente a la violencia contra las mujeres prefieres?",
+   "respuestas": [
+    {
+     "texto": "Suspender automáticamente las visitas del progenitor investigado por violencia machista o vicaria mientras exista riesgo.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 38,
+       "medida": null,
+       "cita": "Estableceremos la suspensión cautelar automática del régimen de visitas, estancia y comunicaciones respecto al progenitor investigado por violencia machista, violencia vicaria"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar las leyes de género actuales, combatir las denuncias falsas y aprobar otras normas que protejan a las víctimas de violencia.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 30,
+       "medida": 47,
+       "cita": "Derogar las leyes que han criminalizado a los hombres y desprotegido a las mujeres."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 30,
+       "medida": 47,
+       "cita": "impulsar la aprobación de leyes y normas que protejan de verdad a las mujeres víctimas de violencia"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Garantizar que funcionen las pulseras de control de alejamiento, que pasarían a depender de Interior, y reforzar las unidades policiales especializadas.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 17,
+       "medida": 28,
+       "cita": "Garantizaremos la fiabilidad de los dispositivos que vigilan las órdenes de alejamiento. El sistema pasará a depender del Ministerio del Interior"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Aprobar una ley orgánica específica contra la violencia vicaria como forma de violencia de género.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 82,
+       "medida": 335,
+       "cita": "Aprobar una Ley Orgánica contra la Violencia Vicaria como manifestación de la violencia de género"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 24,
+   "tema": "Identidad de género",
+   "pregunta": "¿Qué postura sobre la identidad de género compartes?",
+   "respuestas": [
+    {
+     "texto": "Revisar la Ley Trans y eliminar la libre autodeterminación del sexo en el registro, para dar seguridad jurídica y proteger a los menores.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 35,
+       "medida": 115,
+       "cita": "Revisaremos las normas que hayan generado inseguridad jurídica en nombre de la igualdad, como la Ley Trans, y eliminaremos la libre autodeterminación registral del sexo, para reforzar la seguridad jurídica y proteger a los menores."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que la ley LGTBI estatal sea un suelo común en todas las comunidades y garantizar el acceso continuado a tratamientos hormonales para personas trans.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 97,
+       "medida": 412,
+       "cita": "Garantizar que la Ley 4/2023 sea el suelo común de derechos de las personas LGTBI en toda España"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 97,
+       "medida": 415,
+       "cita": "Impulsar la inclusión social y laboral de las personas trans, garantizando el acceso y la continuidad de los tratamientos hormonales."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Desplegar plenamente la Ley Trans y reconocer a las personas no binarias.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 123,
+       "medida": null,
+       "cita": "Desplegaremos de forma efectiva la Ley Trans, reconoceremos a las personas no binarias y protegeremos frente a la violencia intragénero."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que el deporte femenino se rija por criterios biológicos para garantizar la igualdad real en la competición.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 43,
+       "medida": 78,
+       "cita": "Compromiso con la defensa del deporte femenino, que debe regirse por criterios biológicos y deportivos objetivos para garantizar la igualdad real en la competición."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 25,
+   "tema": "Memoria histórica",
+   "pregunta": "¿Qué harías con la Ley de Memoria Democrática?",
+   "respuestas": [
+    {
+     "texto": "Derogarla y sustituirla por una ley de concordia que mantenga la búsqueda e identificación de desaparecidos.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 37,
+       "medida": 129,
+       "cita": "DEROGAREMOS LA LEY DE MEMORIA DEMOCRÁTICA Y APROBAREMOS UNA LEY DE CONCORDIA."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 37,
+       "medida": 129,
+       "cita": "que mantenga, con carácter humanitario, la búsqueda e identificación de desaparecidos."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Ampliarla: cerrar las fundaciones franquistas y reconocer a las víctimas de vulneraciones de derechos entre 1978 y 1983.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 146,
+       "medida": null,
+       "cita": "Continuaremos con el proceso judicial iniciado para el cierre de la Fundación Francisco Franco"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 146,
+       "medida": null,
+       "cita": "reconocer y reparar las vulneraciones de derechos humanos cometidas entre 1978 y 1983"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Superarla, por considerar que divide a los españoles e intenta imponer una verdad oficial.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 30,
+       "medida": 46,
+       "cita": "Superación de las divisivas leyes ideológicas que enfrentan a los españoles, tales como la de Memoria Democrática"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Completar las exhumaciones, retirar la simbología franquista y avanzar en eliminar entidades que hagan apología de la dictadura.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 98,
+       "medida": 420,
+       "cita": "Completar el Plan de Exhumaciones, finalizar el Censo de las Víctimas de la Guerra y la Dictadura"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 98,
+       "medida": 422,
+       "cita": "retirar simbología franquista y avanzar en la eliminación de entidades que hagan apología de la dictadura."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 26,
+   "tema": "Modelo territorial",
+   "pregunta": "¿Qué modelo territorial prefieres para España?",
+   "respuestas": [
+    {
+     "texto": "Mantener el Estado de las Autonomías con un sistema común: que ninguna comunidad salga de él ni haya acuerdos bilaterales a medida.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 15,
+       "medida": 16,
+       "cita": "Defendemos el Estado de las Autonomías y el autogobierno de las Comunidades Autónomas en el marco de la Constitución."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 33,
+       "medida": 101,
+       "cita": "integran el régimen común saldrá de él ni habrá nuevos regímenes singulares negociados bilateralmente al margen de este sistema."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Avanzar hacia una república federal y plurinacional que regule el referéndum.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 140,
+       "medida": null,
+       "cita": "avanzar hacia un modelo de Estado republicano federal y plurinacional, que regule el referéndum y el pleno reconocimiento de la realidad plurinacional y plurilingüística de España"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Convertir el Senado en una verdadera cámara territorial e institucionalizar la Conferencia de Presidentes.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 91,
+       "medida": 382,
+       "cita": "Reformar el Senado para convertirlo en una auténtica Cámara de representación territorial"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 91,
+       "medida": 383,
+       "cita": "Institucionalizar la Conferencia de Presidentes."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Recuperar el delito de sedición e ilegalizar los partidos y organizaciones que atenten contra la unidad de España.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 55,
+       "medida": 103,
+       "cita": "Recuperar el delito de sedición,"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 56,
+       "medida": 103,
+       "cita": "Ilegalización de los partidos políticos, asociaciones u organizaciones de cualquier tipo que atenten contra la soberanía e independencia de España, su unidad e integridad territorial."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 27,
+   "tema": "Seguridad ciudadana",
+   "pregunta": "¿Qué cambio en seguridad y orden público prefieres?",
+   "respuestas": [
+    {
+     "texto": "Sustituir la actual Ley de Seguridad Ciudadana por otra que garantice los derechos de reunión y manifestación, con cámaras corporales en la policía.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 99,
+       "medida": 431,
+       "cita": "Aprobar una nueva Ley de Seguridad Ciudadana que sustituya a la Ley Orgánica 4/2015, garantizando los derechos de reunión y manifestación"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Rebajar la edad de responsabilidad penal de los menores y ampliar la prisión permanente revisable.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 45,
+       "medida": 80,
+       "cita": "Reducción de la edad de responsabilidad penal del menor"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 45,
+       "medida": 81,
+       "cita": "Ampliación de la prisión permanente revisable."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Derogar por completo la «Ley Mordaza» y los delitos de ofensas a la Corona, a España o a los sentimientos religiosos.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 142,
+       "medida": null,
+       "cita": "Derogaremos por completo la Ley Mordaza."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 142,
+       "medida": null,
+       "cita": "Derogaremos los artículos del Código Penal que castigan los delitos contra los sentimientos religiosos o de escarnio público, los delitos contra la Corona"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Endurecer las penas por disturbios violentos y que ocultar el rostro al cometerlos sea una agravante.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 16,
+       "medida": 21,
+       "cita": "Reformaremos el delito de desórdenes públicos para ampliar las conductas castigadas y endurecer las penas por participar en disturbios violentos"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 16,
+       "medida": 22,
+       "cita": "Actuar con el rostro cubierto para evitar la identificación durante la comisión de actos violentos, vandálicos o delictivos tendrá consecuencias más graves."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 28,
+   "tema": "Defensa",
+   "pregunta": "¿Qué política de defensa prefieres?",
+   "respuestas": [
+    {
+     "texto": "Reforzar la defensa común europea, con compras conjuntas y más participación española en proyectos de la UE.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 112,
+       "medida": 494,
+       "cita": "Impulsar la autonomía estratégica europea reforzando las capacidades comunes de seguridad y defensa de la UE"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Aumentar la inversión en Defensa, mejorar los sueldos militares y reconocer la profesión militar como de riesgo.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 47,
+       "medida": 89,
+       "cita": "Aumento de la inversión en Defensa, sueldos dignos y ayudas a la movilidad geográfica y a la vivienda y alojamiento."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 47,
+       "medida": 89,
+       "cita": "Reconocimiento de la profesión y servicio en las Fuerzas Armadas como profesión de riesgo."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una ley de financiación plurianual de la defensa e impulsar la industria nacional de drones, defensa antiaérea y munición.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 21,
+       "medida": 52,
+       "cita": "Aprobaremos una ley de programación y financiación de la defensa, con objetivos de personal y material a medio y largo plazo."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 22,
+       "medida": 55,
+       "cita": "con prioridad para drones y sistemas antidrones, defensa antiaérea, munición, ciberdefensa"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Rechazar el objetivo de gasto militar del 5 % del PIB de la OTAN y reducir el gasto militar en favor de protección civil, sanidad y educación.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 130,
+       "medida": null,
+       "cita": "Rechazaremos de forma explícita el compromiso de destinar el 5 % del PIB a gasto militar en el marco de la OTAN, impulsando una reducción efectiva de las partidas militares"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 29,
+   "tema": "Medios de comunicación",
+   "pregunta": "¿Qué harías con los medios de comunicación y la desinformación?",
+   "respuestas": [
+    {
+     "texto": "Reformar a fondo la televisión pública para sacar de ella a los «comisarios políticos» y defender la libertad de expresión frente a la censura.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 58,
+       "medida": 110,
+       "cita": "Limpiar RTVE de comisarios políticos, acabar con el despilfarro y ponerla al servicio de los españoles."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 58,
+       "medida": 111,
+       "cita": "Garantizar la libertad de expresión de todos los españoles frente a la deriva censora del Gobierno de Sánchez."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Reformar RTVE y la agencia EFE en los primeros cien días para recuperar su independencia y proteger más a los periodistas y sus fuentes.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 27,
+       "medida": 76,
+       "cita": "INICIAREMOS EN LOS PRIMEROS CIEN DÍAS LA REFORMA DE RTVE Y EFE PARA RECUPERAR SU INDEPENDENCIA."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 27,
+       "medida": 77,
+       "cita": "Reforzaremos la protección de los periodistas, de sus fuentes y del secreto profesional."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una estrategia integral contra la desinformación y medir y sancionar a las plataformas que ganen dinero con el odio.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 96,
+       "medida": 411,
+       "cita": "Aprobar una Estrategia integral frente a la desinformación."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 96,
+       "medida": 410,
+       "cita": "Publicar periódicamente la Huella del Odio y la Polarización de cada plataforma y endurecer las sanciones para que nadie pueda ganar dinero con el odio."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Limitar la concentración de la propiedad de los medios y repartir la publicidad institucional con criterios objetivos.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 121,
+       "medida": null,
+       "cita": "Fijaremos límites a la propiedad y al control cruzado de medios de comunicación en función de audiencias, ingresos publicitarios e influencia."
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 121,
+       "medida": null,
+       "cita": "aplicando criterios objetivos y auditables en el reparto de la publicidad institucional."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 30,
+   "tema": "Campo",
+   "pregunta": "¿Qué medida para la agricultura y la ganadería te convence más?",
+   "respuestas": [
+    {
+     "texto": "Ceder tierras rústicas del «banco malo» (SAREB) para crear explotaciones agrarias ecológicas.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 87,
+       "medida": null,
+       "cita": "Cesión de suelo rústico de SAREB (banco malo) para fomentar explotaciones agrarias ecológicas"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Premiar con certificación y compensaciones la ganadería extensiva y la agricultura regenerativa.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 70,
+       "medida": 271,
+       "cita": "Recompensar las prácticas de agroganadería sostenible y en particular en la ganadería extensiva y la agricultura regenerativa."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Crear un seguro de ingresos para agricultores y ganaderos frente a las caídas del mercado y proteger a los ganaderos frente al lobo.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 49,
+       "medida": 198,
+       "cita": "Mejoraremos los seguros agrarios y crearemos un seguro de ingresos y rentas frente a alteraciones del mercado."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 49,
+       "medida": 198,
+       "cita": "Garantizaremos la protección de los ganaderos frente al lobo"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Rechazar el acuerdo comercial UE-Mercosur y cualquier acuerdo que obligue a los productores a competir en desigualdad.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 33,
+       "medida": 48,
+       "cita": "Rechazo explícito al acuerdo UE-Mercosur y de todo acuerdo comercial que obligue a nuestros productores a competir en desigualdad de condiciones."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 31,
+   "tema": "Agua",
+   "pregunta": "¿Cuál debería ser la prioridad en la política del agua?",
+   "respuestas": [
+    {
+     "texto": "Gestión 100 % pública del agua y un mínimo vital gratuito para los hogares vulnerables.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 73,
+       "medida": null,
+       "cita": "Ciclo del agua 100 % de gestión pública directa"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 73,
+       "medida": null,
+       "cita": "Garantizaremos un mínimo vital de agua gratuito para las personas y hogares en situación de vulnerabilidad"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Crear bancos públicos de agua y modernizar los regadíos sin aumentar el consumo total.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 68,
+       "medida": 263,
+       "cita": "Crear bancos públicos de agua en las confederaciones hidrográficas"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 68,
+       "medida": 264,
+       "cita": "Modernizar los regadíos, mejorando la eficiencia hídrica y energética sin aumentar el consumo total de agua."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Interconectar todas las cuencas hidrográficas para repartir mejor el agua y reactivar el regadío.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 61,
+       "medida": 115,
+       "cita": "Plan Nacional del Agua. Interconexión de todas las cuencas que permita una gestión más eficiente del agua"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Invertir hasta 40.000 millones antes de 2030 en desalación, reutilización, regadíos y otras infraestructuras.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 37,
+       "medida": 126,
+       "cita": "movilizaremos hasta 40.000 millones de euros en inversiones hasta 2030. Modernizaremos los regadíos y generaremos recursos nuevos con infraestructuras, desalación y reutilización."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 32,
+   "tema": "Despoblación",
+   "pregunta": "¿Cómo frenarías la despoblación rural?",
+   "respuestas": [
+    {
+     "texto": "Impuestos mínimos y bonificaciones reforzadas para quien viva o se traslade a zonas en riesgo de despoblación.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 10,
+       "medida": 6,
+       "cita": "Fiscalidad mínima y diferenciada en las zonas en riesgo de despoblación."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Garantizar servicios básicos y transporte en todo el territorio, con la meta de que estén a menos de 30 minutos.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 70,
+       "medida": 275,
+       "cita": "Garantizar el acceso a servicios básicos y soluciones de movilidad en todo el territorio"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan de empleo e industrialización comarcal con incentivos directos y rebajas de cotizaciones a las empresas en zonas poco pobladas.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 97,
+       "medida": null,
+       "cita": "articularemos un sistema de incentivos económicos directos y una fiscalidad diferenciada"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Ayudas directas a los municipios de menos de 250 habitantes para mantener servicios básicos como el agua, la basura o el alumbrado.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 34,
+       "medida": 105,
+       "cita": "Destinaremos ayudas directas para los municipios de menos de 250 habitantes, para sostener sus servicios básicos"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 33,
+   "tema": "Animales y tradiciones",
+   "pregunta": "¿Qué postura sobre caza, tauromaquia y bienestar animal compartes?",
+   "respuestas": [
+    {
+     "texto": "Derogar la ley que protege la tauromaquia como patrimonio cultural y acabar con su financiación pública.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 76,
+       "medida": null,
+       "cita": "Derogaremos la Ley 18/2013 de protección cultural y patrimonial de la tauromaquia, como paso imprescindible para acabar con la financiación pública de la tauromaquia"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Proteger las fiestas y tradiciones populares, empezando por recuperar el Premio Nacional de Tauromaquia.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 38,
+       "medida": 136,
+       "cita": "empezando por la restitución del Premio Nacional de Tauromaquia"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Tolerancia cero con el maltrato animal, retirando la financiación pública a las prácticas que lo amparen.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 73,
+       "medida": 295,
+       "cita": "Garantizar tolerancia cero al maltrato, retirando financiación pública a prácticas que lo amparen"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Defender la caza como actividad esencial para controlar la fauna y proteger cultivos y ganado.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 35,
+       "medida": 59,
+       "cita": "Defensa de la caza como actividad esencial para el control de las poblaciones y para la protección de las explotaciones agrícolas y ganaderas"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 34,
+   "tema": "Familias",
+   "pregunta": "¿Qué ayuda a las familias con hijos prefieres?",
+   "respuestas": [
+    {
+     "texto": "Extender a todas las familias, desde el primer hijo, las ventajas de las familias numerosas, y que el Estado cotice por quien se dedique a cuidar a sus hijos.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 51,
+       "medida": 94,
+       "cita": "Todos los beneficios que ahora existen para las familias numerosas se aumentarán y se extenderán a todas las familias de manera progresiva desde el primer hijo"
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 51,
+       "medida": 94,
+       "cita": "Cotización a la Seguridad Social financiada por el Estado para los españoles dedicados al cuidado de sus hijos."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una prestación universal por crianza de 200 euros al mes por cada menor.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 7,
+       "medida": null,
+       "cita": "Implantaremos una Prestación Universal por Crianza de 200 euros mensuales por menor para erradicar la pobreza infantil"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Unificar las deducciones familiares del IRPF en una sola que se cobre cada mes, también para quien apenas paga IRPF.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 43,
+       "medida": 158,
+       "cita": "Refundiremos las deducciones familiares del IRPF en una sola, reembolsable, con un único trámite y abono mensual."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una «cuenta de futuro» de 1.000 euros para cada recién nacido, disponible a los 18 años para estudios o proyectos.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 56,
+       "medida": 193,
+       "cita": "Asignar al nacer a cada niño o niña una cuenta pública de 1.000 euros invertida en fondos públicos"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 35,
+   "tema": "Menores en internet",
+   "pregunta": "¿Cómo proteger a los menores en internet y en las redes sociales?",
+   "respuestas": [
+    {
+     "texto": "Prohibir las redes sociales a menores de 14 años y exigir autorización de los padres hasta los 16.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 45,
+       "medida": 168,
+       "cita": "NINGÚN MENOR DE 14 AÑOS PODRÁ TENER UNA CUENTA EN REDES SOCIALES, Y HASTA LOS 16 NECESITARÁ AUTORIZACIÓN DE SUS PADRES."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Responsabilidad penal y económica para las grandes plataformas que ignoren contenidos ilegales y eliminar funciones adictivas como el scroll infinito.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 41,
+       "medida": null,
+       "cita": "mecanismos claros de responsabilidad penal y patrimonial para las grandes plataformas digitales"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 41,
+       "medida": null,
+       "cita": "eliminación de funciones adictivas (scroll infinito, reproducción automática"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Fijar en 16 años la edad mínima para usar redes sociales, con verificación obligatoria de la edad.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 95,
+       "medida": 399,
+       "cita": "Establecer a 16 años la edad mínima para usar redes sociales."
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 95,
+       "medida": 399,
+       "cita": "La ley incluirá la verificación obligatoria de la edad"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Proteger a los menores frente a los riesgos del entorno digital, como la adicción al juego o la pornografía.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 97,
+       "cita": "Preservar la inocencia de los menores y protegerlos frente a los riesgos presentes en los entornos digitales, tales como la adicción al juego o la pornografía"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 36,
+   "tema": "Corrupción",
+   "pregunta": "¿Qué medida contra la corrupción priorizas?",
+   "respuestas": [
+    {
+     "texto": "Una ley de integridad pública y una agencia independiente que coordine los controles y proteja a quienes denuncian.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 102,
+       "medida": 445,
+       "cita": "Aprobar una Ley Orgánica de Integridad Pública y una Estrategia Nacional Anticorrupción con mapas de riesgos en todas las administraciones, y crear una Agencia Independiente de Integridad Pública"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Obligar a registrar quién controla realmente cada sociedad, para que los corruptores no puedan esconderse tras ellas.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 141,
+       "medida": null,
+       "cita": "la inscripción obligatoria y actualizada en el Registro Mercantil de los cambios de propiedad de las sociedades limitadas y las anónimas no cotizadas"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Restablecer las penas por malversación y reforzar la oficina que localiza y recupera los bienes obtenidos con delitos.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 28,
+       "medida": 82,
+       "cita": "Restableceremos las penas por malversación. Reforzaremos la Oficina de Recuperación y Gestión de Activos para localizar y administrar los bienes procedentes de los delitos que se hayan cometido."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que los condenados por corrupción respondan con todos sus bienes, presentes y futuros, hasta devolver todo lo desviado.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 57,
+       "medida": 107,
+       "cita": "Reforzaremos la responsabilidad patrimonial personal de los cargos públicos condenados por delitos de corrupción"
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 37,
+   "tema": "Ferrocarril",
+   "pregunta": "¿Qué harías con el tren?",
+   "respuestas": [
+    {
+     "texto": "Priorizar la seguridad y el mantenimiento de la red, Cercanías y Media Distancia, y electrificar líneas para conectar la España rural.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 61,
+       "medida": 113,
+       "cita": "Prioridad a la seguridad ferroviaria, al mantenimiento de una red abandonada e infradotada y a los servicios de Cercanías y Media Distancia."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un pacto de Estado por la seguridad ferroviaria y unos 19.000 millones para mantener la red hasta 2030.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 19,
+       "medida": null,
+       "cita": "Impulsaremos un Pacto de Estado por la Seguridad Ferroviaria"
+      },
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 19,
+       "medida": null,
+       "cita": "Blindaremos durante los próximos 5 años la conservación y el mantenimiento de la red: unos 19.000 millones de euros en 2026-2030."
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que la alta velocidad vuelva a ser 100 % pública, revirtiendo la entrada de operadores privados.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 105,
+       "medida": null,
+       "cita": "Restableceremos la alta velocidad como un servicio público de titularidad y operación exclusiva por parte de Renfe."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Un plan de más de 300.000 millones en 15 años, junto al sector privado, para autovías, Alta Velocidad y Cercanías.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 36,
+       "medida": 117,
+       "cita": "movilizaremos, junto con el sector privado, más de 300.000 millones en los próximos 15 años para impulsar autovías y redes viarias, Alta Velocidad y Cercanías"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 38,
+   "tema": "Dependencia",
+   "pregunta": "¿Cómo mejorarías la atención a las personas dependientes?",
+   "respuestas": [
+    {
+     "texto": "Más presupuesto para dependencia y para los cuidados en casa, y más plazas en residencias.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 95,
+       "cita": "Reforzar el presupuesto en dependencia, las ayudas para el cuidado en el hogar, el apoyo a familiares a cargo."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 52,
+       "medida": 95,
+       "cita": "Aumento de los programas de atención a la soledad no deseada y de las plazas en residencias."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Que el Estado pague el 50 % del coste público y que las familias desgraven el 40 % de lo que paguen por cuidados profesionales.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 35,
+       "medida": 114,
+       "cita": "haremos efectiva la aportación estatal del 50% del coste público del sistema."
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 35,
+       "medida": 114,
+       "cita": "Las familias se deducirán el 40% de lo que paguen por la atención profesional de un mayor dependiente"
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Consolidar la ayuda a domicilio como servicio público esencial, con financiación estable.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 57,
+       "medida": 206,
+       "cita": "Consolidar el Servicio de Ayuda a Domicilio como servicio público esencial del sistema de dependencia"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Duplicar las horas de ayuda a domicilio y reconocer por ley un «derecho al respiro» de un mes al año para quien cuida.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 23,
+       "medida": null,
+       "cita": "Duplicaremos las horas e intensidad mínima de ayuda a domicilio"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 23,
+       "medida": null,
+       "cita": "reconoceremos por ley el «derecho al respiro» (mínimo 1 mes al año con centros de día o estancias temporales"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 39,
+   "tema": "Inteligencia artificial",
+   "pregunta": "¿Qué enfoque sobre la inteligencia artificial prefieres?",
+   "respuestas": [
+    {
+     "texto": "Un cheque de formación en IA para cada trabajador, que conserve aunque cambie de empresa.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 45,
+       "medida": 169,
+       "cita": "Cada trabajador tendrá un cheque de formación, que conservará, aunque cambie de empresa, para formarse donde elija."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Prohibir que los chatbots simulen vínculos sentimentales o creen dependencia emocional.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 121,
+       "medida": null,
+       "cita": "Prohibición a los asistentes y chatbots de compañía de simular vínculos sentimentales o emplear dinámicas manipuladoras basadas en perfiles psicológicos para retener al usuario."
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Impulsarla como motor económico en empresas y administraciones, garantizando siempre la atención presencial.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 27,
+       "medida": 37,
+       "cita": "Sumar a España a la carrera de la Inteligencia Artificial."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 27,
+       "medida": 37,
+       "cita": "Implantarla en las administraciones para reducir la burocracia y mejorar los servicios públicos, garantizando siempre la atención presencial."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una ley con supervisión humana obligatoria, etiquetado de contenidos hechos con IA y prohibición de los deepfakes sin consentimiento.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 96,
+       "medida": 406,
+       "cita": "Garantizar la supervisión humana de las decisiones que afecten a la ciudadanía, el etiquetado obligatorio de los contenidos generados o manipulados con IA y la prohibición de los deepfakes sin consentimiento"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    }
+   ]
+  },
+  {
+   "id": 40,
+   "tema": "Política exterior",
+   "pregunta": "¿Qué política hacia Marruecos, Ceuta, Melilla y el Sáhara prefieres?",
+   "respuestas": [
+    {
+     "texto": "Retirar el apoyo al plan de autonomía marroquí y defender un referéndum de autodeterminación saharaui supervisado por la ONU.",
+     "fuentes": [
+      {
+       "partido": "FA",
+       "pdf_pagina": 132,
+       "medida": null,
+       "cita": "Retiraremos formalmente el apoyo gubernamental al plan de autonomía marroquí"
+      },
+      {
+       "partido": "FA",
+       "pdf_pagina": 132,
+       "medida": null,
+       "cita": "Defenderemos el derecho incondicional a la autodeterminación del pueblo saharaui mediante un referéndum libre supervisado por Naciones Unidas"
+      }
+     ],
+     "partidos": [
+      "FA"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Integrar Ceuta y Melilla en la Unión Aduanera europea con un régimen fiscal favorable.",
+     "fuentes": [
+      {
+       "partido": "PSOE",
+       "pdf_pagina": 110,
+       "medida": 474,
+       "cita": "Fortalecer la integración de Ceuta y Melilla en las políticas comunitarias, promoviendo su integración efectiva en la Unión Aduanera con un régimen fiscal favorable"
+      }
+     ],
+     "partidos": [
+      "PSOE"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Una política de equilibrio entre Marruecos y Argelia y apoyar a la ONU en una solución política para el Sáhara.",
+     "fuentes": [
+      {
+       "partido": "PP",
+       "pdf_pagina": 56,
+       "medida": 237,
+       "cita": "Volveremos a una política de equilibrio con Marruecos y Argelia"
+      },
+      {
+       "partido": "PP",
+       "pdf_pagina": 56,
+       "medida": 239,
+       "cita": "Apoyaremos los esfuerzos de Naciones Unidas en el Sáhara Occidental para alcanzar una solución política justa, duradera y mutuamente aceptable para las partes."
+      }
+     ],
+     "partidos": [
+      "PP"
+     ],
+     "nota": null
+    },
+    {
+     "texto": "Sanciones y suspensión de acuerdos con Marruecos hasta que respete las fronteras, y militarizar la frontera de Ceuta y Melilla.",
+     "fuentes": [
+      {
+       "partido": "VOX",
+       "pdf_pagina": 7,
+       "medida": null,
+       "cita": "Impulsar sanciones, suspender acuerdos internacionales y revisar las relaciones diplomáticas hasta que Marruecos respete las fronteras y la soberanía de España."
+      },
+      {
+       "partido": "VOX",
+       "pdf_pagina": 7,
+       "medida": null,
+       "cita": "Militarización de la frontera para repeler cualquier intento futuro de invasión o ataque híbrido."
+      }
+     ],
+     "partidos": [
+      "VOX"
+     ],
+     "nota": null
+    }
+   ]
+  }
+ ]
+}
