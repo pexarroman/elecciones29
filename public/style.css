@@ -170,3 +170,24 @@ h2:focus{outline:none}
 .mia-p{margin:.1rem 0 .35rem;font-family:var(--serif);font-size:1.05rem;line-height:1.25}
 .mia-r{margin:0 0 .45rem;font-size:.97rem}
 .mia-item .tag{display:inline-block;padding:.05rem .5rem;border-radius:2px;font-weight:700;font-size:.88rem;background:var(--mark);color:var(--on-mark)}
+
+/* Resultado: Sígueme en Instagram (destacado) */
+.sigueme{display:flex;align-items:center;gap:.9rem;margin:0 0 1rem;padding:1rem 1.1rem;background:var(--card);border:2px solid var(--ink);border-radius:.75rem;color:var(--ink);text-decoration:none;transition:transform .08s ease,box-shadow .15s ease}
+.sigueme:hover{box-shadow:4px 4px 0 var(--mark)}
+.sigueme:active{transform:translateY(1px)}
+.sigueme:focus-visible{outline:3px solid var(--mark);outline-offset:3px}
+.sigueme-icon{flex:none;width:40px;height:40px}
+.sigueme-txt{flex:1;font-family:var(--serif);font-size:1.15rem;line-height:1.25;overflow-wrap:anywhere}
+.sigueme-txt b{font-family:var(--sans);font-size:1rem;white-space:nowrap}
+.sigueme-cta{flex:none;background:var(--mark);color:var(--on-mark);border:2px solid var(--ink);border-radius:.5rem;padding:.45rem .9rem;font-weight:700;font-size:.95rem}
+@media (max-width:420px){
+  .sigueme{flex-wrap:wrap}
+  .sigueme-txt{flex-basis:calc(100% - 56px)}
+  .sigueme-cta{flex-basis:100%;text-align:center;padding:.6rem}
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sigueme-icon{filter:invert(1)}}
+
+/* Resultado: donación (discreto) */
+.cafe{margin:0 0 2.5rem;text-align:center;font-size:.9rem}
+.cafe a{color:var(--mute);text-decoration:underline;text-underline-offset:3px;display:inline-block;padding:.5rem .25rem}
+.cafe a:hover{color:var(--ink)}
