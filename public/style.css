@@ -187,7 +187,10 @@ h2:focus{outline:none}
 }
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .sigueme-icon{filter:invert(1)}}
 
-/* Resultado: donación (discreto) */
-.cafe{margin:0 0 2.5rem;text-align:center;font-size:.9rem}
-.cafe a{color:var(--mute);text-decoration:underline;text-underline-offset:3px;display:inline-block;padding:.5rem .25rem}
-.cafe a:hover{color:var(--ink)}
+/* Resultado: donación (mismo recuadro, colores al revés) */
+.invita{background:var(--mark);color:var(--on-mark);margin-bottom:2.5rem}
+.invita:hover{box-shadow:4px 4px 0 var(--ink)}
+.invita:focus-visible{outline-color:var(--ink)}
+.invita .sigueme-cta{background:#14161A;color:var(--mark);border-color:#14161A}
+@media (max-width:420px){.invita .sigueme-txt{flex-basis:100%}}
+.nw{white-space:nowrap}
