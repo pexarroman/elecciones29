@@ -194,3 +194,18 @@ h2:focus{outline:none}
 .invita .sigueme-cta{background:#14161A;color:var(--mark);border-color:#14161A}
 @media (max-width:420px){.invita .sigueme-txt{flex-basis:100%}}
 .nw{white-space:nowrap}
+
+/* PDF de pago */
+.pdf-box{background:var(--card);border:2px solid var(--ink);border-radius:.75rem;padding:1.15rem 1.2rem 1rem;margin:0 0 2rem}
+.pdf-box h3{margin:0 0 .4rem}
+.pdf-box p{margin:0 0 .9rem}
+.pdf-box .small,.mas-pdf .small{margin:.6rem 0 0}
+.mas-pdf{border-top:1px solid var(--line);margin-top:1.25rem;padding-top:1rem}
+.mas-pdf p{margin:0 0 .8rem}
+.js-pdf{width:100%}
+@media (min-width:560px){.js-pdf{width:auto}}
+.js-pdf:disabled{opacity:.6;cursor:progress}
+.pago-estado{margin:.75rem 0 0;padding:.6rem .8rem;border-left:4px solid var(--mark);background:var(--paper);font-size:.95rem}
+.pago-estado.err{border-left-color:var(--err);color:var(--err)}
+#v-inicio .pago-estado{margin:0 0 1rem}
+#muestra .dq{margin-bottom:0}

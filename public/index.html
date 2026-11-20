@@ -38,12 +38,13 @@
       <div class="slip is-on"><span class="box"></span><span>Congelar los alquileres que superen el índice de referencia.</span><span class="redact w2"></span></div>
     </div>
 
+    <p class="pago-estado js-estado-inicio" role="status" hidden></p>
     <button class="btn btn-main" id="btn-empezar" type="button">Empezar el test · unos 8 minutos</button>
 
     <ul class="facts">
       <li>Partidos: PSOE, PP, Vox y Frente Amplio.</li>
       <li>El orden de las respuestas cambia en cada pregunta y en cada partida.</li>
-      <li>Gratis. No pedimos correo ni datos personales. Tus respuestas se quedan en tu navegador.</li>
+      <li>El test es gratis. No pedimos correo ni datos personales. Tus respuestas se quedan en tu navegador.</li>
       <li>Fuente única: los programas electorales oficiales del 29N.</li>
     </ul>
   </section>
@@ -64,6 +65,14 @@
 
   <!-- RESULTADO -->
   <section id="v-resultado" class="view" hidden>
+    <section class="pdf-box" aria-labelledby="pdf-h">
+      <h3 id="pdf-h">Todas las respuestas, con su fuente</h3>
+      <p>Descarga en PDF las 40 preguntas con tu respuesta, de qué partido es cada propuesta y la página y la cita literal del programa electoral de donde sale.</p>
+      <button class="btn btn-main js-pdf" type="button">Descargar PDF</button>
+      <p class="small js-pdf-nota">Pago único con Stripe. Al terminar el pago, el PDF se descarga automáticamente.</p>
+      <p class="pago-estado js-estado" role="status" hidden></p>
+    </section>
+
     <p class="tema" id="r-sub"></p>
     <h2 id="r-titulo" tabindex="-1"></h2>
     <ol class="ranking" id="r-ranking"></ol>
@@ -74,39 +83,30 @@
       <button class="btn btn-ghost" id="btn-repetir" type="button">Repetir el test</button>
     </div>
 
+    <section class="mias" aria-labelledby="m-h">
+      <h3 id="m-h">Tus respuestas, con su fuente</h3>
+      <p class="small">Aquí tienes la primera pregunta como muestra: tu respuesta, de qué partido es cada propuesta y de qué página del programa sale.</p>
+      <div id="muestra"></div>
+      <div class="mas-pdf">
+        <p><b>Las otras 39 preguntas</b>, con todas sus fuentes, están en el PDF.</p>
+        <button class="btn btn-main js-pdf" type="button">Descargar PDF</button>
+        <p class="small js-pdf-nota">Pago único con Stripe. Al terminar el pago, el PDF se descarga automáticamente.</p>
+        <p class="pago-estado js-estado" role="status" hidden></p>
+      </div>
+    </section>
+
     <a class="sigueme" href="https://www.instagram.com/laclasequenosfalto/" target="_blank" rel="noopener">
       <img class="sigueme-icon" src="img/instagram.svg" alt="" width="40" height="40">
       <span class="sigueme-txt">¿Te ha gustado? Sígueme en <b>@laclasequenosfalto</b></span>
       <span class="sigueme-cta" aria-hidden="true">Seguir</span>
     </a>
 
-    <a class="sigueme invita" href="https://donate.stripe.com/9B600lcs70k3gy3aDUc3m00" target="_blank" rel="noopener">
-      <span class="sigueme-txt">¿Te ha servido? Invítame a un <span class="nw">café ☕</span></span>
-      <span class="sigueme-cta" aria-hidden="true">Invitar</span>
-    </a>
-
-    <section class="mias" aria-labelledby="m-h">
-      <h3 id="m-h">Tus respuestas, con su partido</h3>
-      <p class="small">Esto es lo que elegiste en cada pregunta y de qué programa sale cada propuesta.</p>
-      <ol class="mia-lista" id="m-lista"></ol>
-      <p class="small" id="m-ninguna"></p>
-    </section>
-
-    <section id="detalle" aria-labelledby="d-h">
-      <div class="detalle-head">
-        <h3 id="d-h">Todas las respuestas, con su fuente</h3>
-        <button class="btn btn-main" id="btn-pdf" type="button">Descargar PDF</button>
-      </div>
-      <p class="small">Las cuatro respuestas de cada pregunta, de qué partido es cada una y la página y cita literal del programa. Puedes descargarlo en PDF.</p>
-      <div id="d-lista"></div>
-    </section>
-
     <details class="metodo">
       <summary>Cómo se calcula</summary>
       <p>Cada pregunta tiene cuatro respuestas y cada una sale del programa electoral de un partido: PSOE, PP, Vox o Frente Amplio. Cuando eliges una respuesta, ese partido suma un punto.</p>
       <p>El porcentaje de cada partido es su número de puntos dividido entre las preguntas en las que elegiste una propuesta. Las que marcas como «ninguna encaja» no cuentan. Como cada respuesta es de un solo partido, los cuatro porcentajes suman 100 % (puede variar un punto por el redondeo).</p>
       <p>El orden de las respuestas se mezcla al azar en cada partida, y en el conjunto del test cada partido aparece un número de veces parecido en cada posición, para que la posición no dé pistas.</p>
-      <p>Las propuestas están resumidas con palabras neutras; la cita literal y la página de cada una están en las fuentes. Es una herramienta orientativa sobre programas, no una encuesta ni una recomendación de voto.</p>
+      <p>Las propuestas están resumidas con palabras neutras; la cita literal y la página de cada una están en el PDF. Es una herramienta orientativa sobre programas, no una encuesta ni una recomendación de voto.</p>
     </details>
   </section>
 

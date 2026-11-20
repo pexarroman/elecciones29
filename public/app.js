@@ -11,7 +11,10 @@
   let answers = {};         // qid -> aid | "none"
   let tie = {};             // desempate aleatorio por partido
   let idx = 0;
-  let detalle = null;       // fuentes (página y cita) de cada respuesta
+  let detalle = null;       // fuentes completas: solo llegan tras verificar el pago
+  let muestra = null;       // fuentes de la pregunta 1 (muestra gratuita)
+  const PAGO = CLAVE + "-pago";       // localStorage: sesión de Stripe ya verificada
+  const PEND = CLAVE + "-pendiente";  // localStorage: respuestas guardadas al ir a pagar
 
   // ---------- almacenamiento seguro ----------
   const store = {
@@ -45,6 +48,7 @@
     return mejor.res;
   }
   const show = (name) => { Object.entries(V).forEach(([k, el]) => { el.hidden = k !== name; }); window.scrollTo(0, 0); };
+  const completo = () => !!data && data.preguntas.every((q) => answers[q.id]);
   const qById = (id) => data.preguntas.find((q) => String(q.id) === String(id));
   const nombre = (p) => data.partidos[p] || p;
   const el = (tag, attrs = {}, ...kids) => {
@@ -148,8 +152,8 @@
       requestAnimationFrame(() => requestAnimationFrame(() => { li.querySelector(".fill").style.width = f.pct + "%"; }));
     });
     $("r-nota").textContent = "Mide coincidencia con propuestas de los programas del 29N, no intención de voto ni calidad de las medidas.";
-    renderMias();
-    renderDetalle();
+    renderMuestra();
+    actualizarPago();
     h.focus({ preventScroll: true });
   }
 
@@ -175,29 +179,87 @@
     return caja;
   }
 
-  // Gratis: tus respuestas, con el partido de cada una.
-  function renderMias() {
-    const root = $("m-lista"); root.replaceChildren();
-    let ninguna = 0;
-    data.preguntas.forEach((q, i) => {
-      const a = answers[q.id];
-      if (!a || a === "none") { ninguna++; return; }
-      const r = q.respuestas.find((x) => x.id === a);
-      if (!r) return;
-      root.append(el("li", { class: "mia-item" },
-        el("span", { class: "mia-q", text: `${i + 1}. ${q.tema}` }),
-        el("p", { class: "mia-p", text: q.pregunta }),
-        el("p", { class: "mia-r", text: r.texto }),
-        el("span", { class: "tag tag-" + r.p.join("-").toLowerCase(), text: lista(r.p) })));
-    });
-    $("m-ninguna").textContent = ninguna ? `En ${ninguna} ${ninguna === 1 ? "pregunta elegiste" : "preguntas elegiste"} «ninguna de estas propuestas me encaja»; no cuentan en el porcentaje.` : "";
+  // Muestra gratuita: solo la pregunta 1, con sus fuentes.
+  function renderMuestra() {
+    const root = $("muestra"); root.replaceChildren();
+    const q = data.preguntas[0];
+    if (!muestra || !muestra.preguntas[q.id]) return;
+    root.append(tarjeta(q, 0, muestra.preguntas[q.id], true));
   }
 
-  function renderDetalle() {
-    const root = $("d-lista"); root.replaceChildren();
-    if (!detalle) { $("detalle").hidden = true; return; }
-    data.preguntas.forEach((q, i) => root.append(tarjeta(q, i, detalle.preguntas[q.id], false)));
-    $("detalle").hidden = false;
+  // ---------- pago (Stripe) ----------
+  const pagado = () => {
+    const x = store.get(PAGO, "local");
+    return x && x.s && Date.now() - x.t < 30 * 864e5 ? x.s : null;
+  };
+  function estado(msg, error) {
+    document.querySelectorAll(V.resultado.hidden ? ".js-estado-inicio" : ".js-estado").forEach((p) => {
+      p.textContent = msg || ""; p.hidden = !msg; p.classList.toggle("err", !!error);
+    });
+  }
+  function actualizarPago() {
+    const ok = !!pagado();
+    document.querySelectorAll(".js-pdf").forEach((b) => { b.textContent = ok ? "Descargar PDF" : `Descargar PDF · ${CFG.precio || "3 €"}`; });
+    document.querySelectorAll(".js-pdf-nota").forEach((p) => {
+      p.textContent = ok ? "Ya has pagado: puedes descargarlo las veces que quieras desde este navegador."
+        : "Pago único con Stripe. Al terminar el pago, el PDF se descarga automáticamente.";
+    });
+  }
+  const mensajePago = (e) => ({
+    no_pagado: "Stripe no confirma el pago de esta compra. Si has pagado, escríbenos con el recibo y lo resolvemos.",
+    importe: "Stripe no confirma el pago de esta compra. Si has pagado, escríbenos con el recibo y lo resolvemos.",
+    otro_producto: "Ese pago no corresponde al PDF. Si has pagado, escríbenos con el recibo y lo resolvemos.",
+    sesion_no_encontrada: "No encontramos ese pago. Si has pagado, escríbenos con el recibo y lo resolvemos.",
+    sin_configurar: "El pago todavía no está configurado en la web. Escríbenos y lo resolvemos.",
+  }[e] || "No se pudo comprobar el pago ahora mismo. Recarga la página en un momento para volver a intentarlo.");
+
+  async function cargarDetalle(sid) {
+    try {
+      const r = await fetch("/api/detalle?s=" + encodeURIComponent(sid), { cache: "no-store" });
+      const j = await r.json().catch(() => ({}));
+      if (r.ok && j && j.preguntas) { detalle = j; return null; }
+      return j.error || "error";
+    } catch { return "error"; }
+  }
+
+  async function botonPdf(ev) {
+    const btn = ev && ev.currentTarget;
+    const sid = pagado();
+    if (sid) {
+      if (!detalle) {
+        if (btn) btn.disabled = true;
+        estado("Preparando tu PDF…");
+        const err = await cargarDetalle(sid);
+        if (btn) btn.disabled = false;
+        if (err) { estado(mensajePago(err), true); return; }
+      }
+      estado(""); pdf(); return;
+    }
+    const url = (CFG.pagoUrl || "").trim();
+    if (!/^https:\/\/[a-z0-9.-]*stripe\.com\//.test(url)) { estado("El pago todavía no está configurado en la web.", true); return; }
+    // Guardamos las respuestas para poder generar el PDF en la pestaña a la que vuelve Stripe.
+    store.set(PEND, { orders, answers, tie, t: Date.now() }, "local");
+    window.open(url, "_blank", "noopener");
+    estado("Se ha abierto el pago de Stripe en una pestaña nueva. Al terminar, el PDF se descargará allí.");
+  }
+
+  // Vuelta desde Stripe: ?pago=cs_...
+  async function volverDePago(sid) {
+    const hayTest = completo();
+    if (hayTest) renderResultado(); else show("inicio");
+    estado("Comprobando el pago…");
+    const err = await cargarDetalle(sid);
+    if (err) { estado(mensajePago(err), true); return; }   // dejamos ?pago= en la dirección para poder reintentar recargando
+    store.set(PAGO, { s: sid, t: Date.now() }, "local");
+    store.del(PEND, "local");
+    try { history.replaceState(null, "", location.pathname); } catch {}
+    actualizarPago();
+    if (hayTest) {
+      estado("¡Gracias! Tu PDF se está descargando. Si no empieza, pulsa «Descargar PDF».");
+      pdf();
+    } else {
+      estado("¡Gracias! El pago está confirmado, pero en este navegador no están tus respuestas. Haz el test y al final podrás descargar el PDF sin volver a pagar.");
+    }
   }
 
   // ---------- PDF (se genera en el navegador) ----------
@@ -286,7 +348,7 @@
   async function init() {
     try { data = await (await fetch("data/preguntas.json")).json(); }
     catch { V.inicio.querySelector(".lead").textContent = "No se pudieron cargar las preguntas. Recarga la página."; return; }
-    try { detalle = await (await fetch("data/detalle.json")).json(); } catch { detalle = null; }
+    try { muestra = await (await fetch("data/muestra.json")).json(); } catch { muestra = null; }
     document.title = `Test de afinidad electoral 29N · ${data.preguntas.length} preguntas`;
     $("btn-empezar").textContent = `Empezar el test · unos ${Math.round(data.preguntas.length / 5)} minutos`;
     document.querySelectorAll("h1 + .lead").forEach(() => {});
@@ -303,12 +365,16 @@
     $("btn-atras").addEventListener("click", () => { if (idx > 0) { idx--; renderQ(); } });
     $("btn-repetir").addEventListener("click", () => { newRun(); show("test"); renderQ(); });
     $("btn-compartir").addEventListener("click", compartir);
-    $("btn-pdf").addEventListener("click", pdf);
+    document.querySelectorAll(".js-pdf").forEach((b) => b.addEventListener("click", botonPdf));
 
+    const valido = (x) => x && x.answers && x.orders && data.preguntas.every((q) => x.answers[q.id] && x.orders[q.id]);
     const s = store.get(CLAVE);
-    if (s && s.answers && s.orders && data.preguntas.every((q) => s.answers[q.id] && s.orders[q.id])) {
-      orders = s.orders; answers = s.answers; tie = s.tie || tie; renderResultado();
-    }
+    const pend = store.get(PEND, "local");
+    const sid = new URLSearchParams(location.search).get("pago");
+    if (valido(s)) { orders = s.orders; answers = s.answers; tie = s.tie || tie; }
+    else if (sid && valido(pend)) { orders = pend.orders; answers = pend.answers; tie = pend.tie || tie; persist(); }
+    if (sid) { volverDePago(sid); return; }
+    if (completo()) renderResultado();
   }
   init();
 })();
