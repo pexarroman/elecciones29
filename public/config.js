@@ -5,6 +5,6 @@ window.CONFIG = {
   instagramUrl: "https://www.instagram.com/laclasequenosfalto",
   instagramUsuario: "@laclasequenosfalto",
   // PDF de pago: enlace de pago (Payment Link) de Stripe y precio que se muestra en el botón.
-  pagoUrl: "PEGA_AQUI_EL_ENLACE_DE_PAGO_DE_STRIPE",
+  pagoUrl: "https://buy.stripe.com/8x214peAfeaTgy33bsc3m01",
   precio: "3 €"
 };
